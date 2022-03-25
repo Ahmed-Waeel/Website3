@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(187, 187, 221);
+    overflow-x: hidden;
+}
+.page-container{
+    width: 1520px;
+    height: 1940px;
+    margin: auto;
+    position: relative;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+header{
+    position: absolute;
+    top: 1px;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #942b2b;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+nav{
+    background-color: #1a0c0c;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center; 
+    /* z-index: 111; */
+}
+nav a{
+    margin-right:40px;
+    color: white;  
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 25px;
+}
+.photo{
+    margin-right: 130px;
+}
+.home{
+    margin-right: 80px;
+    font-size: 30px;
+}
+a:hover{
+    color: blue;
+}
+.active{
+    color: blue;
+}
+.main{
+    width: 100%;
+    height: 400px;
+    background-color: #266fb8;
+    position: absolute;
+    right: 0;
+    top:61px;
+    display: flex;
+    justify-content: right;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+.img-container{
+    width: 100%;
+    height: 100%;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.main2{
+    width: 80%;
+    height: 1920px;
+    background-color: #266fb8;
+    position: absolute;
+    left: 20%;
+    top:461px;
+    display: flex;
+    justify-content: right;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+.info{
+    margin-top: 30px;
+    width: 56%;
+    margin-left: 2%;
+    height: 250px;
+    text-align: right;
+}
+.info p{
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+.p{
+    margin-left: 10px;
+}
+.img-container2{
+    margin: 0 10px;
+    margin-top: 50px;
+    width: 40%;
+    height: 250px;
+    background-color: #1a0c0c;
+}
+.img-container2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill; 
+}
+
+.side{
+    width: 20%;
+    height: 1920px;
+    background-color: #943535;
+    position: absolute;
+    left: 0;
+    top:461px;
+    display: flex;
+    justify-content: right;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: #312525;
+    color: white;
+    position: absolute;
+    bottom: -450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer h4{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
